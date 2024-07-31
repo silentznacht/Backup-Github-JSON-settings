@@ -1,0 +1,213 @@
+{
+    "redhat.telemetry.enabled": true,
+    "boot-java.rewrite.reconcile": true,
+    "files.autoSave": "afterDelay",
+    "sonarlint.rules": {
+        "javascript:S1226": {
+            "level": "off"
+        },
+        "javascript:S1751": {
+            "level": "off"
+        },
+        "javascript:S4138": {
+            "level": "off"
+        },
+        "java:S120": {
+            "level": "off"
+        }
+    },
+    "glassit.alpha": 190,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "vs-kubernetes": {
+        "vscode-kubernetes.helm-path.windows": "C:\\Users\\ASC_Student\\.vs-kubernetes\\tools\\helm\\windows-amd64\\helm.exe",
+        "vscode-kubernetes.minikube-path.windows": "C:\\Users\\ASC_Student\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe",
+        "vscode-kubernetes.kubectl-path.windows": "C:\\Users\\ASC_Student\\.vs-kubernetes\\tools\\kubectl\\kubectl.exe",
+        "vscode-kubernetes.helm-path-windows": "C:\\Users\\ASC_Student\\.vs-kubernetes\\tools\\helm\\windows-amd64\\helm.exe",
+        "vscode-kubernetes.minikube-path-windows": "C:\\Users\\ASC_Student\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe",
+        "vscode-kubernetes.kubectl-path-windows": "C:\\Users\\ASC_Student\\.vs-kubernetes\\tools\\kubectl\\kubectl.exe"
+    },
+    "rsp-ui.enableStartServerOnActivation": [
+        {
+            "id": "redhat.vscode-community-server-connector",
+            "name": "Community Server Connector",
+            "startOnActivation": true
+        }
+    ],
+    "explorer.confirmDragAndDrop": false,
+    "cmake.configureOnOpen": true,
+    "workbench.colorTheme": "Absolute Black",
+    "background.editorBackgrounds": [
+        "c:/Users/ASC_Student/Desktop/Photos/919DB449-017A-41C1-A6E5-7E287F4D9EED.jpg"
+    ],
+    "window.titleBarStyle": "custom",
+    "workbench.sideBar.location": "right",
+    "java.completion.favoriteStaticMembers": [
+        
+        "org.junit.Assert.*",
+        "org.junit.Assume.*",
+        "org.junit.jupiter.api.Assertions.*",
+        "org.junit.jupiter.api.Assumptions.*",
+        "org.junit.jupiter.api.DynamicContainer.*",
+        "org.junit.jupiter.api.DynamicTest.*",
+        "org.mockito.Mockito.*",
+        "org.mockito.ArgumentMatchers.*",
+        "org.mockito.Answers.*"
+    ],
+    "tabnine.experimentalAutoImports": true,
+    "cSpell.userWords": [
+        "chatme",
+        "chatmeapp",
+        "donot",
+        "glassit",
+        "Gruvbox",
+        "sonarlint",
+        "tabnine"
+    ],
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+    },
+    "editor.linkedEditing": true,
+    "editor.minimap.enabled": false,
+    "editor.rulers": [
+        {
+            "column": 80,
+            "color": "#00FF0010"
+        },
+        {
+            "column": 100,
+            "color": "#BDB76B15"
+        },
+        {
+            "column": 120,
+            "color": "#FA807219"
+        }
+    ],
+    "editor.unicodeHighlight.includeComments": true,
+    "emmet.variables": {
+        "lang": "en"
+    },
+    "workbench.colorCustomizations": {
+        "[Default Dark Modern]": {
+            "tab.activeBorderTop": "#00FF00",
+            "tab.unfocusedActiveBorderTop": "#00FF0088",
+            "textCodeBlock.background": "#00000055"
+        },
+        "editor.wordHighlightStrongBorder": "#FF6347",
+        "editor.wordHighlightBorder": "#FFD700",
+        "editor.selectionHighlightBorder": "#A9A9A9"
+    },
+    "workbench.editor.revealIfOpen": true,
+    "workbench.tree.indent": 20,
+    "files.eol": "\n",
+    "[bat]": {
+        "files.eol": "\r\n"
+    },
+    "cSpell.diagnosticLevel": "Hint",
+    "trailing-spaces.backgroundColor": "rgba(255,0,0,0.1)",
+    "trailing-spaces.includeEmptyLines": false,
+    "terminal.integrated.tabs.hideCondition": "never",
+    "terminal.integrated.enablePersistentSessions": false,
+    "java.debug.settings.hotCodeReplace": "auto",
+    "java.sources.organizeImports.staticStarThreshold": 1,
+    "java.configuration.detectJdksAtStart": false,
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "terminal.integrated.profiles.windows": {
+        "JavaSE-1.8 LTS": {
+            "overrideName": true,
+            "env": {
+                "PATH": "C:\\Users\\ASC_Student\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\8\\bin;${env:PATH}",
+                "JAVA_HOME": "C:\\Users\\ASC_Student\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\8"
+            },
+            "path": "cmd"
+        },
+        "JavaSE-11 LTS": {
+            "overrideName": true,
+            "env": {
+                "PATH": "C:\\Users\\ASC_Student\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\11\\bin;${env:PATH}",
+                "JAVA_HOME": "C:\\Users\\ASC_Student\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\11"
+            },
+            "path": "cmd"
+        },
+        "JavaSE-17 LTS": {
+            "overrideName": true,
+            "env": {
+                "PATH": "C:\\Users\\ASC_Student\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\17\\bin;${env:PATH}",
+                "JAVA_HOME": "C:\\Users\\ASC_Student\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\17"
+            },
+            "path": "cmd"
+        },
+        "JavaSE-21 LTS": {
+            "overrideName": true,
+            "env": {
+                "PATH": "C:\\Program Files\\Java\\jdk-21\\bin;${env:PATH}",
+                "JAVA_TOOL_OPTIONS": "-Dstdout.encoding=UTF-8 -Dstderr.encoding=UTF-8",
+                "JAVA_HOME": "C:\\Program Files\\Java\\jdk-21"
+            },
+            "path": "cmd",
+            "args": [
+                "/k",
+                "chcp",
+                "65001"
+            ]
+        },
+        "JavaSE-22": {
+            "overrideName": true,
+            "env": {
+                "PATH": "C:\\Users\\ASC_Student\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\latest\\bin;${env:PATH}",
+                "JAVA_TOOL_OPTIONS": "-Dstdout.encoding=UTF-8 -Dstderr.encoding=UTF-8",
+                "JAVA_HOME": "C:\\Users\\ASC_Student\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\latest"
+            },
+            "path": "cmd",
+            "args": [
+                "/k",
+                "chcp",
+                "65001"
+            ]
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "JavaSE-21 LTS",
+    "terminal.integrated.automationProfile.windows": {
+        "path": "cmd"
+    },
+    "java.test.config": {
+        "vmArgs": [
+            "-Dstdout.encoding=UTF-8",
+            "-Dstderr.encoding=UTF-8"
+        ]
+    },
+    "terminal.integrated.env.windows": {
+        "JAVA_HOME": "C:\\Program Files\\Java\\jdk-21",
+        "PATH": "C:\\Program Files\\Java\\jdk-21\\bin;${env:PATH}"
+    },
+    "maven.terminal.customEnv": [
+        {
+            "environmentVariable": "JAVA_HOME",
+            "value": "/home/silentz_nacht/.var/app/com.visualstudio.code/config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/21"
+        }
+    ],
+    "rsp-ui.rsp.java.home": "/home/silentz_nacht/.var/app/com.visualstudio.code/config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/21",
+    "git.openRepositoryInParentFolders": "always",
+    "java.dependency.packagePresentation": "hierarchical",
+    "EIDE.SDCC.InstallDirectory": "${userRoot}/.eide/tools/sdcc",
+    "arduino.useArduinoCli": true,
+    "cmake.options.statusBarVisibility": "visible",
+    "maven.executable.path": "/home/silentz_nacht/.config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/maven/latest/bin/mvn",
+    "workbench.iconTheme": "vscode-icons",
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+            "path": "bash",
+            "env": {
+                "JAVA_HOME": "/home/silentz_nacht/.var/app/com.visualstudio.code/config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/21"
+            },
+            "args": [
+                "--rcfile",
+                "/home/silentz_nacht/.var/app/com.visualstudio.code/config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/.bashrc"
+            ]
+        }
+    },
+    "terminal.integrated.defaultProfile.linux": "JavaSE-21 LTS",
+    "http.proxyAuthorization": null,
+    "json.schemas": [
+        
+    ]
+}
